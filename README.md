@@ -1,4 +1,6 @@
-spring-boot-react-maven-starter
+Based off the spring-boot-react-maven-starter by Shekhar Gulati at https://github.com/shekhargulati/spring-boot-react-maven-starter/
+
+Doit
 -----
 
 This is a multi-module Spring Boot React Apache Maven starter app with good defaults. The react app is built using [create-react-app](https://github.com/facebookincubator/create-react-app).
