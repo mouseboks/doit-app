@@ -1,14 +1,12 @@
 import { connect } from 'react-redux'
-import { toggleTodo } from '../redux-actions'
+import { toggleTodo, Actions, VisibilityFilters } from '../redux-actions'
 import TodoList from '../react-components/TodoList'
 
 const getVisibleTodos = (todos, filter) => {
   switch (filter) {
-    case 'SHOW_COMPLETED':
-      return todos.filter(t => t.completed)
-    case 'SHOW_ACTIVE':
+    case VisibilityFilters.SHOW_ACTIVE:
       return todos.filter(t => !t.completed)
-    case 'SHOW_ALL':
+    case VisibilityFilters.SHOW_ALL:
     default:
       return todos
   }
