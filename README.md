@@ -1,4 +1,5 @@
 Based off the spring-boot-react-maven-starter by Shekhar Gulati at https://github.com/shekhargulati/spring-boot-react-maven-starter/
+Also based off the Redux tutorial for a tiny todo list
 
 Doit
 -----
